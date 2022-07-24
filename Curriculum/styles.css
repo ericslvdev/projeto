@@ -1,0 +1,44 @@
+#hdr {
+    background-color: rgb(139, 183, 235);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Hubballi', cursive;
+}
+#nameAndTitle{
+    text-align: center;
+    background-color: white;
+    width: 500px;
+    margin: 0 auto;
+}
+#nameAndTitle h1, h2 {
+    margin: 0;
+}
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+#contact, #skills {
+    list-style-type: none;
+}
+#contact i {
+    width: 30px;
+    color:rgb(139, 183, 235);
+}
+#container {
+    display:grid;
+    grid-template-columns: 35% auto;
+    grid-column-gap: 20px;
+}
+#sidebar, #content {
+    display:flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card h3{
+    font-family: 'Hubballi', cursive;
+}
+.card {
+    font-family: Montserrat;
+    border:1px solid rgb(194, 194, 194);
+    border-radius: 15px;
+    padding: 20px;
+}
